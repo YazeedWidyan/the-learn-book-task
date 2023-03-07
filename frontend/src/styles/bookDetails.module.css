@@ -1,0 +1,63 @@
+.BookDetailsContainer {
+  background-color: white;
+}
+
+.BookDetailsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px 0px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  flex: 1;
+}
+
+.div2 {
+  flex: 5;
+}
+
+.BookDetailsImg {
+  height: 366px;
+  width: 289px;
+  border-radius: 10px;
+}
+
+.bookTag {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  width: 20px;
+  width: 90px;
+  margin-bottom: 40px;
+}
+
+.bookTag h3 {
+  margin: 0;
+}
+
+.pillRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 910px) {
+  .BookDetailsImg {
+    width: -webkit-fill-available;
+  }
+}
+
+
+@media (max-width: 648px) {
+  .pillRow {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,29 @@
+.SearchBarContainer {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.SearchBarWrapper {
+  position: relative;
+}
+
+.searchBar {
+  background-color: #e9eef3;
+  width: 94%;
+  border-radius: 30px;
+  border: none;
+  padding: 20px 15px;
+  font-size: 18px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 5%;
+  top: 12px;
+
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

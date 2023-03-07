@@ -1,0 +1,62 @@
+.BookCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.div1 {
+  flex: 1;
+}
+
+.div2 {
+  flex: 5;
+}
+
+.div3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 33px;
+}
+
+.bookCardImg {
+  height: 276px;
+  width: 205px;
+  border-radius: 10px;
+}
+
+.pillRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 910px) {
+  .bookCardImg {
+    width: -webkit-fill-available;
+  }
+
+  .div3 {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .bookCardImg {
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 648px) {
+  .pillRow {
+    flex-wrap: wrap;
+  }
+}
